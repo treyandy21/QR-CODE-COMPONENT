@@ -1,31 +1,59 @@
-body{
+ html{
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   text-align :justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* min-height: 10vh; */
+  background-color: hsl(212, 45%, 89%) ;
   
+}
+*{
+  border:0px;
+  padding:0px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 50px;
+}
+.card-content
+{ 
+  text-align: center;
+  padding: 0;
+  margin:10px;
+
+
 }
 .image{
- 
- 
-
-}
-
- @media ((max-width:375px) and (min-width:1440px)) {
-  .heading{
- margin:0px;
+  align-items: center;
   
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+}
+.image img{
+  width: 100%;
+  border-radius: 50px;
 }
 
-.attribution{
-  padding:0px;
+.attribution
+{
+ text-align: center; 
+ margin-top: 1rem;
 }
-html{
-  background-color: aqua;
+p{
+  color:218, 44%, 22%;
+  font-size:0.9375rem;
+  font-weight:400rem;
+  line-height: 1.5;
 }
-.qrcode1{
-  border: 12px solid white;
-  border-radius: 3%;
-}
+.container
+{
+ padding:16px;
+ border:50px solid white;
+ border-radius: 50px;
+ text-align: center;
+ 
 }
